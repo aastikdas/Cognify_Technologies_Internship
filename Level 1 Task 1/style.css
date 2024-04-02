@@ -1,0 +1,133 @@
+body {
+    background-image: url("https://t4.ftcdn.net/jpg/04/84/11/15/360_F_484111532_W0WOkKeXQzF75XusA7R8e3llIDXqyCFm.jpg");
+    font-family: Arial, sans-serif;
+    background-color: rgba(189, 186, 186, 0.542);
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+
+    background-color: white;
+    background-image: url("https://media.istockphoto.com/id/1160720443/vector/abstract-simple-geometric-vector-seamless-pattern-with-gold-line-texture-on-white-background.jpg?s=612x612&w=0&k=20&c=_kgBISj1Wio4LTRdBFN3IttmunACCl1-T5VKdurvb68=");
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px wheat;
+}
+
+.container:hover {
+    box-shadow: -5px -5px 10px 10px rgba(55, 42, 236, 0.4);
+    font-size: 17px;
+}
+
+h2 {
+    text-align: center;
+}
+
+form {
+    max-width: 300px;
+    margin: 0 auto;
+}
+
+input[type="text"],
+input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+input[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    margin-top: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #007bff;
+    color: #fff;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: #0056b3;
+}
+
+.forgot-password {
+    display: flex;
+    margin-top: 70px;
+    justify-content: center;
+}
+
+.forgot-password a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+.forgot-password a:hover {
+    text-decoration: underline;
+}
+
+nav {
+    position: fixed;
+    top: 0px;
+    width: 100%;
+    background-color: #33167c;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-around;
+}
+
+li a {
+    display: flex;
+    color: white;
+    padding: 8px 10px;
+    text-decoration: none;
+    transition: all 3s infinte;
+    font-size: 1.2em;
+    letter-spacing: 2px;
+}
+
+i {
+    font-size: 20px;
+    color: wheat;
+}
+
+li a:hover {
+    background-color: #111;
+    box-shadow: -1px -1px 9px 2px wheat;
+}
+
+#heads {
+    position: absolute;
+    top: 40px;
+    margin-top: 2px;
+    padding: 5px;
+    text-decoration: underline;
+    color: wheat;
+    text-align: center;
+    transition: font 10s infinite;
+}
+#heads:hover{
+    font-size: 2.22rem;
+    color: rgb(219, 227, 70);
+    opacity: 0.7;
+    
+}
+
+.signup-option{
+    display: flex;
+    justify-content: center;
+    
+    
+}
