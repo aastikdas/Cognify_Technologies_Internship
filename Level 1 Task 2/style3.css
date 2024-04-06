@@ -1,0 +1,66 @@
+* {
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+}
+
+h2 {
+    font-size: 3rem;
+    color: rgb(113, 216, 226);
+    text-align: center;
+    margin-top: 40px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8);
+    text-decoration: underline;
+}
+
+body {
+    background-image: url("https://media.istockphoto.com/id/1405574113/vector/geometric-pop-background-monochrome.jpg?s=612x612&w=0&k=20&c=sOrpQYmvq0KaS_NHWcLFeeJgZbmS-PffAT5yxOJLQYU=");
+    margin: 0;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    text-align: center;
+}
+
+p {
+    font-size: 1.6rem;
+    text-align: center;
+    margin: 20px 0;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+}
+
+button {
+    font-size: 2rem;
+    border: 3px solid rgb(211, 28, 28);
+    background-color: rgb(237, 237, 42);
+    border-radius: 16px;
+    padding: 10px 20px;
+    margin: 80px auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+button:hover {
+    background-color: rgb(255, 255, 0);
+    box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2);
+    transform: translateY(-2px);
+}
+
+#result {
+    font-size: 3rem;
+    border: 5px double rgb(0, 170, 255);
+    padding: 10px 20px;
+    margin: 80px auto;
+    display: inline;
+    align-items: center;
+    background-color: rgb(220, 250, 132);
+}
+
+#result:hover {
+    background-color: rgb(193, 218, 117);
+    box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2);
+    transform: translateY(-4px);
+}

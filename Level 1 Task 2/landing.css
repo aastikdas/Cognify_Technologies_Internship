@@ -1,0 +1,84 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background-image: url("https://img.pikbest.com/backgrounds/20210521/abstract-colorful-landing-page-banner-background-design_5943086.jpg!bw700");
+}
+
+h1 {
+    text-align: center;
+    text-decoration: underline;
+    transition: all 1.5s;
+    margin-top: 20px;
+    padding-top: 10px;
+    font-size: 50px;
+    color: whitesmoke;
+}
+
+h1:hover {
+    text-shadow: 1px 3px 10px rgb(212, 198, 41);
+    cursor: pointer;
+}
+
+#option {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 50vh;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.choose {
+    border: 2px solid blue;
+    border-radius: 20px;
+    margin: auto;
+    padding: 40px;
+    display: flex;
+    width: 20vw;
+    justify-content: center;
+    align-items: center;
+    height: 50%;
+    font-size: 30px;
+}
+
+#t1 {
+    background-image: url("https://64.media.tumblr.com/5d7ab997c9daa879a320f9ef21e895b7/tumblr_ooeddrvOJE1uzwgsuo1_400.gif");
+}
+
+#t2 {
+    font-size: 25px;
+    background-image: url("https://png.pngtree.com/background/20210717/original/pngtree-minimalist-financial-statement-project-proposal-picture-image_1440070.jpg");
+}
+
+#t3 {
+    background-image: url("https://media.istockphoto.com/id/1405574113/vector/geometric-pop-background-monochrome.jpg?s=612x612&w=0&k=20&c=sOrpQYmvq0KaS_NHWcLFeeJgZbmS-PffAT5yxOJLQYU=");
+}
+
+#t1, #t2, #t3 {
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+button {
+    border: 2px solid blue;
+    border-radius: 20px;
+    margin: auto;
+    padding: 40px;
+    display: inline-flex;
+    margin: 50px 85px;
+    width: 20vw;
+    justify-content: center;
+    align-items: center;
+    height: 50%;
+    font-size: 30px;
+    cursor: pointer;
+    background-color: rgb(224, 224, 79);
+    transition: all 1s;
+}
+
+button:hover {
+    scale: 1.1;
+    box-shadow: 0px 0px 20px 5px rgb(16, 162, 123);
+}

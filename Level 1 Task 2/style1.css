@@ -1,0 +1,34 @@
+body {
+  background-image: url("https://64.media.tumblr.com/5d7ab997c9daa879a320f9ef21e895b7/tumblr_ooeddrvOJE1uzwgsuo1_400.gif");
+  color: rgb(0, 0, 0);
+  font-size: 20px;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+h1 {
+  font-size: 3rem;
+  font-family: sans-serif;
+  text-align: center;
+  color: rgb(25, 34, 221);
+}
+
+#main {
+  margin-top: 50px;
+  padding: 10px;
+  font-size: 1.4rem;
+}
+
+button {    
+  font-size: 2.4em;
+  border-radius: 40px;
+  padding: 50px;
+  margin: auto;
+  display: flex;
+  background-color: rgb(226, 237, 63);
+  cursor: pointer;
+}
+
+button:hover {
+  box-shadow: 0px 0px 20px 5px rgb(16, 162, 123);
+}
