@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="To Show the media queries properties">
+    <title>Responsive Navigation</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <nav>
+        <div class="logo">Menu Bar</div>
+        <input type="checkbox" id="toggle">
+        <label for="toggle" class="hamburger">
+            <span></span>
+            <span></span>
+            <span></span>
+        </label>
+        <ul class="menu">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Services</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+    </nav>
+    <div id="para">
+        <h2>Media Queries</h2>
+        <p>
+        <h3>1. Introduction to Media Queries:</h3>
+        Media queries in CSS allow you to apply different styles based on various factors such as screen size, device
+        orientation, and resolution. They are crucial for creating responsive designs that adapt seamlessly to different
+        devices and screen sizes.
+        </p>
+        <p>
+        <h3>2. Syntax and Structure:</h3>
+        Media queries begin with the @media rule, followed by a media type (e.g., screen, print) and optional media
+        feature expressions enclosed in parentheses. For example:
+        <pre>
+    @media screen and (max-width: 768px)
+     {
+         /* CSS rules for screens with a maximum 
+         width of 768 pixels */
+     }
+    </pre>
+        </p>
+
+        <p>
+        <h3>
+            3. Using Media Features:
+        </h3>
+
+        Media features enable you to target specific characteristics of the user's device, such as width, height,
+        orientation, and resolution. For instance:
+        <pre>
+
+    @media (orientation: landscape) 
+    {
+        /* CSS rules for devices in landscape 
+        orientation */
+    }
+</pre>
+        </p>
+        <p>
+        <h3>
+            4. Common Use Cases:
+        </h3>
+
+        Media queries are commonly used to create responsive layouts, adjust typography and font sizes, modify image
+        sizes and positioning, and hide or show elements based on screen size. For example:
+        <pre>
+        @media screen and (max-width: 576px) {
+            /* Adjust layout for small screens */
+        }
+    
+        @media (min-resolution: 300dpi) {
+            /* Apply high-resolution styles for devices 
+            with high pixel density */
+        }
+    </pre>
+        </p>
+        <p>
+        <h3>
+            5. Best Practices:
+        </h3>
+
+        When using media queries, it's essential to start with a mobile-first approach by applying styles for smaller
+        screens first, then progressively enhancing the design for larger screens. Additionally, test your design across
+        various devices and screen sizes to ensure optimal responsiveness.
+
+
+        </p>
+    </div>
+</body>
+
+</html>
